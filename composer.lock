@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "8f2120fa77d42a42b4210cdbe1c114e2",
+    "content-hash": "d5a3527d177fb5b4343264b70a3f1dc1",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -2372,6 +2372,46 @@
                 "environment"
             ],
             "time": "2016-09-01T10:05:43+00:00"
+        },
+        {
+            "name": "whistle/baiduocr",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rcj654020445/whistle.git",
+                "reference": "32a0dff8ec0088f573d748eb019bbe2a474b2071"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rcj654020445/whistle/zipball/32a0dff8ec0088f573d748eb019bbe2a474b2071",
+                "reference": "32a0dff8ec0088f573d748eb019bbe2a474b2071",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "whiStle\\baiduOcr\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apche 2.0"
+            ],
+            "authors": [
+                {
+                    "name": "MrRen",
+                    "email": "654020445@qq.com"
+                }
+            ],
+            "description": "This is the baidu OCR operation API",
+            "homepage": "https://github.com/rcj654020445/whistle",
+            "time": "2017-08-14T07:09:00+00:00"
         }
     ],
     "packages-dev": [
